@@ -14,8 +14,8 @@ struct SpotifyNewReleaseCell: View {
     var subheadline: String? = "Some Artist"
     var title: String? = "Some Playlist"
     var subtitle: String? = "Single - title"
-    var onAddToPlaylistPressed: CustomizableAction = nil
-    var onPlayPressed: CustomizableAction = nil
+    var onAddToPlaylistPressed: VoidAction = nil
+    var onPlayPressed: VoidAction = nil
     
     var body: some View {
         VStack(spacing: 16) {

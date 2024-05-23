@@ -12,12 +12,12 @@ struct PlaylistDescriptionCell: View {
     var descriptionText: String = Product.mock.description
     var userName: String = "Berkay"
     var subheadline: String = "Some headline goes here"
-    var onAddToPlaylistPressed: CustomizableAction = nil
-    var onDownloadPressed: CustomizableAction = nil
-    var onSharePressed: CustomizableAction = nil
-    var onEllipsisPressed: CustomizableAction = nil
-    var onShufflePressed: CustomizableAction = nil
-    var onPlayPressed: CustomizableAction = nil
+    var onAddToPlaylistPressed: VoidAction = nil
+    var onDownloadPressed: VoidAction = nil
+    var onSharePressed: VoidAction = nil
+    var onEllipsisPressed: VoidAction = nil
+    var onShufflePressed: VoidAction = nil
+    var onPlayPressed: VoidAction = nil
     
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {

@@ -13,8 +13,8 @@ struct SongRowCell: View {
     var imageName: String = Constants.randomImage
     var title: String = "Some song name goes here"
     var subtitle: String? = "Some artist name"
-    var onCellPressed: CustomizableAction = nil
-    var onEllipsisPressed: CustomizableAction = nil
+    var onCellPressed: VoidAction = nil
+    var onEllipsisPressed: VoidAction = nil
     
     var body: some View {
         HStack(spacing: 8) {

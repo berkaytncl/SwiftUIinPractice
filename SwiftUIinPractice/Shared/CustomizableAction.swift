@@ -7,4 +7,5 @@
 
 import Foundation
 
-typealias CustomizableAction = (() -> Void)?
+typealias VoidAction = (() -> Void)?
+typealias Action<T> = ((T) -> Void)?

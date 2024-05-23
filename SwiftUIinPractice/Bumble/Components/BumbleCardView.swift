@@ -11,11 +11,11 @@ import SwiftfulUI
 struct BumbleCardView: View {
     
     var user: User = .mock
-    var onSendAComplimentPressed: CustomizableAction = nil
-    var onSuperLikePressed: CustomizableAction = nil
-    var onXmarkPressed: CustomizableAction = nil
-    var onCheckmarkPressed: CustomizableAction = nil
-    var onHideAndReportPressed: CustomizableAction = nil
+    var onSendAComplimentPressed: VoidAction = nil
+    var onSuperLikePressed: VoidAction = nil
+    var onXmarkPressed: VoidAction = nil
+    var onCheckmarkPressed: VoidAction = nil
+    var onHideAndReportPressed: VoidAction = nil
     
     @State private var cardFrame: CGRect = .zero
     
