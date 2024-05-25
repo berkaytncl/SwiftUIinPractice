@@ -28,7 +28,7 @@ struct SpotifyPlaylistView: View {
                     PlaylistHeaderCell(
                         height: 250,
                         title: product.title,
-                        subtitle: product.brand,
+                        subtitle: product.brand ?? Product.mock.brand!,
                         imageName: product.thumbnail
                     )
                     .readingFrame { frame in
